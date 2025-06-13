@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NNParts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./estilos/estilo.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top shadow"
+        style="background-color: #575757;"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="./index.html"
+            ><img
+              src="../img/nnparts.png"
+              alt="NNParts Logo"
+              title="NNParts"
+              width="60"
+              height="60"
+              class="d-inline-block align-text-top rounded-circle shadow"
+              style="background-color: #8a8a8a; padding: 2px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Productos</a
+                >
+                <ul class="dropdown-menu" style="background-color: #575757;">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#divisor1"
+                      >Elementos Para Tu Moto</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#divisor2"
+                      >Cascos e indumentaria</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#divisor3"
+                      >Accesorios</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./html/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="sobrenosotros">
+        <img src="./img/fondo2.webp" alt="imgtienda" class="imgtienda" />
+        <h1>SOBRE NOSOTROS</h1>
+        <p>
+          En NN Parts vivimos la pasión por las motos. Somos una tienda
+          especializada en accesorios, repuestos e indumentaria de calidad para
+          todos los estilos de motociclistas. Te ofrecemos productos seguros,
+          confiables y con diseño, pensados para que vivas cada ruta con
+          libertad y estilo. Todo lo que vos y tu moto necesitan, en un solo
+          lugar.
+        </p>
+        <a href="./html/sobrenosotros.html">Conocenos más acá</a>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <h2 class="h2productos">PRODUCTOS</h2>
+
+      <h3 id="divisor1" class="divisordeproductos">ELEMENTOS PARA TU MOTO</h3>
+      <div class="contenedoresproducto">
+        <section class="marco">
+          <img src="./img/escape2.jpg" alt="escape" />
+          <h4>ESCAPES</h4>
+          <a href="./html/escapes.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img src="./img/aceite.jpg" alt="servis" />
+          <h4>SERVIS</h4>
+          <a href="./html/servis.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img src="./img/witz.png" alt="accesorios" />
+          <h4>ACCESORIOS</h4>
+          <a href="./html/accesorios.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+      </div>
+
+      <h3 id="divisor2" class="divisordeproductos">CASCOS E INDUMENTARIA</h3>
+      <div class="contenedoresproducto">
+        <section class="marco">
+          <img src="./img/ls2-320.webp" class="imgls2" alt="casco ls2" />
+          <h4>CASCOS</h4>
+          <a href="./html/cascos.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img
+            src="./img/campera-ls2-gallant.webp"
+            class="imgls2"
+            alt="camperas ls2"
+          />
+          <h4>CAMPERAS</h4>
+          <a href="#">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img
+            src="./img/guante-ls2-silva.webp"
+            class="imgls2guantes"
+            alt="guantes ls2"
+          />
+          <h4>GUANTES</h4>
+          <a href="#">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img
+            src="./img/ls2-370-modular.webp"
+            class="imgls2"
+            alt="cascos modulares ls2"
+          />
+          <h4>CASCOS MODULARES</h4>
+          <a href="#">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+      </div>
+
+      <h3 id="divisor3" class="divisordeproductos">PROTECCIONES ENDURO</h3>
+      <div class="contenedoresproducto">
+        <section class="marco">
+          <img src="./img/descarga.jpg" alt="escape" />
+          <h4>ESCAPES</h4>
+          <a href="./html/escapes.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img src="./img/aceite.jpg" alt="servis" />
+          <h4>SERVIS</h4>
+          <a href="./html/servis.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+
+        <section class="marco">
+          <img src="./img/witz.png" alt="accesorios" />
+          <h4>ACCESORIOS</h4>
+          <a href="./html/accesorios.html">
+            <button class="botonver">VER PRODUCTOS</button>
+          </a>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="contactofooter">
+        <p>Tel: 3401 590800</p>
+        <p>Gmail: niconardone2005@gmail.com</p>
+        <p>Piamonte, Santa Fe</p>
+      </div>
+
+      <p class="copy">&copy; 2025 NN Parts. Todos los derechos reservados.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

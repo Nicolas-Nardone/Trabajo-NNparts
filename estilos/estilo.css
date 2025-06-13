@@ -1,0 +1,290 @@
+
+/* inicio */
+
+body {
+ background-color: #bebebe;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/* header */
+
+.logo {
+    background-color: #8a8a8a;
+   
+    padding: 2px;
+    margin: 7px;
+    width: 6rem;
+    
+    border-radius: 50%;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenedorsuperior{
+    background-color: #575757;
+    top: 0px;
+    width: 100%;
+    height: 110px;
+    
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.nav li {
+    padding: 20px;
+}
+
+.nav a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.imgtienda{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sobrenosotros {
+margin-top: 100px;
+}
+
+.sobrenosotros h1{
+text-align: center;
+font-size: 30px;
+margin: 10px;
+}
+
+.sobrenosotros p {
+margin: 20px;
+text-align: center;
+}
+
+.sobrenosotros a{
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*main*/
+
+.h2productos {
+    background-color: #575757;
+    color: #000000;
+    border-top: 10px solid rgb(173, 26, 26);
+    border-bottom:  10px solid rgb(173, 26, 26);
+    margin: 30px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+    
+.divisordeproductos{
+    background-color: #6b6b6bc9;
+    color: #000;
+    font-size: 20px;
+    margin: 35px 0px 10px 0px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenedoresproducto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.marco {
+    background-color: #ffffff;
+    height: 380px;
+    width: 300px;
+
+    padding: 15px 10px;
+    margin: 10px;
+   
+    border-radius: 10px;
+    border: 2px solid #575757a1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marco h4{
+    color: #000;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.botonver{
+     background-color: rgba(173, 26, 26, 0.932);
+     color: #000000;
+      
+     padding: 4px 12px;
+     
+     width: 200px;
+    font-weight: 620;
+     font-size: 15px;
+     
+     border-radius: 5px;
+     border: 2px solid 
+}
+
+
+
+
+/*footer*/
+
+.footer{
+background-color: #3a3a3ad0;
+ border-top: 10px solid rgba(173, 26, 26, 0.795);
+padding: 10px;
+margin: 50px 0px 0px 0px;
+}
+
+.contactofooter{
+    color: #aaa;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.contactofooter p{
+    padding: 5px;
+}
+
+.copy{
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+
+
+
+/*sobre nosotros*/
+
+.conocenos{
+margin-top: 100px;
+}
+    
+.conocenos img{
+    width: 100%;
+}
+
+.conocenos p {
+    margin: 15px 40px;
+    text-align: center;
+}
+
+
+
+
+/*contacto */
+
+.contacto {
+    font-family: Arial, sans-serif;
+    color: gray;
+    font-size: 18px;
+    margin: 20px;
+    margin-top: 120px;
+    
+}
+
+.contacto p{
+margin: 7px;
+}
+
+.contenedorcontacto{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+.contenedorcontacto input{
+    background-color: #f0f0f0e1;
+    border-radius: 2px;
+     border: none;
+    outline: none;
+
+}
+
+.contenedorcontacto textarea{
+    height: 200px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0e1;
+    border-radius: 2px;
+    }
+
+.contenedorcontacto label{
+     font-weight: bold;
+}
+
+.contenedorbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorbutton button{
+     border-radius: 5px;
+    font-size: 15px;
+    font-weight: 520;
+    border: 2px solid;
+    width: 200px;
+    background: rgba(240, 77, 77, 0.726);
+    padding: 4px 12px; 
+    align-items: center;
+}
+
+
+/*paginas*/
+
+
+ 
+
+
+
+
+
+.imgls2{
+    width:250px
+}
+
+.imgls2guantes{
+    width:150px
+}
+
+
+
+
+
+
+
