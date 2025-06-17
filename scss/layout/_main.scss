@@ -1,0 +1,79 @@
+@use"./utilities/variables" as*;
+@use"./utilities/extends" as*;
+@use"./utilities/mixins" as*;
+@use"./global/reset" as*;
+@use"./layout/header" as*;
+@use"./layout/footer" as*;
+@use"./pages/contacto" as*;
+@use"./pages/sobrenosotros" as*;
+@use"./pages/paginas" as*;
+@use"./mq/mediaqueries" as*;
+
+
+
+.h2productos {
+    background-color: $color-grisocuro;
+    color: $color-negro;
+    border-top: 10px solid $color-rojo;
+    border-bottom:  10px solid $color-rojo;
+    margin: 30px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+    
+.divisordeproductos{
+    background-color: $color-grisclaro;
+    color: $color-negro;
+    font-size: 20px;
+    margin: 35px 0px 10px 0px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px $color-sombra;
+}
+
+.contenedoresproducto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.marco {
+    background-color: #ffffff;
+    height: 380px;
+    width: 300px;
+
+    padding: 15px 10px;
+    margin: 10px;
+   
+    border-radius: 10px;
+    border: 2px solid #575757a1;
+    box-shadow: 0 0 10px $color-sombra;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+.h4{
+    color: #000;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+}
+
+.botonver{
+     background-color: $color-rojo;
+     color: $color-negro;
+      
+     padding: 4px 12px;
+     
+     width: 200px;
+     font-weight: 620;
+     font-size: 15px;
+     
+     border-radius: 5px;
+     border: 2px solid 
+}

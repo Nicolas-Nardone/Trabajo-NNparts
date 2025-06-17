@@ -1,0 +1,39 @@
+@use"./utilities/variables" as*;
+@use"./utilities/extends" as*;
+@use"./utilities/mixins" as*;
+@use"./global/reset" as*;
+@use"./layout/header" as*;
+@use"./layout/main" as*;
+@use"./pages/contacto" as*;
+@use"./pages/sobrenosotros" as*;
+@use"./pages/paginas" as*;
+@use"./mq/mediaqueries" as*;
+
+
+.footer{
+    background-color: $color-grisfooter;
+    
+    border-top: 10px solid $color-rojofooter;
+    padding: 10px;
+    margin: 50px 0px 0px 0px;
+}
+
+.contactofooter{
+    color: $color-grisclarito;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+
+.p{
+    padding: 5px;
+}
+
+}
+
+ 
+.copy{
+   width: 100%;
+   text-align: center;
+   margin-top: 2rem;
+   font-size: 0.9rem;
+   color: $color-grisclarito;
+}

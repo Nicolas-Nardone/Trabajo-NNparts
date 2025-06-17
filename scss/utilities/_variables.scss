@@ -1,0 +1,38 @@
+
+@use"./utilities/extends" as*;
+@use"./utilities/mixins" as*;
+@use"./global/reset" as*;
+@use"./layout/header" as*;
+@use"./layout/main" as*;
+@use"./layout/footer" as*;
+@use"./pages/contacto" as*;
+@use"./pages/sobrenosotros" as*;
+@use"./pages/paginas" as*;
+@use"./mq/mediaqueries" as*;
+
+
+$color-negro: #000000;
+$color-blanco: #ffffff;
+
+/*grises*/
+
+$color-fondo: #bebebe;
+$color-grisocuro: #575757;
+$color-grisclaro: #6b6b6bc9;
+$color-grisclarito: #8a8a8a;
+$color-grisfooter: #3a3a3ad0;
+
+/*rojo*/
+$color-rojo: #ad1a1aee;
+$color-rojofooter: #ad1a1acb;
+
+$color-sombra: #00000080
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+@use"./utilities/variables" as*;
+@use"./utilities/extends" as*;
+@use"./utilities/mixins" as*;
+@use"./global/reset" as*;
+@use"./layout/header" as*;
+@use"./layout/main" as*;
+@use"./layout/footer" as*;
+@use"./pages/contacto" as*;
+@use"./pages/paginas" as*;
+@use"./mq/mediaqueries" as*;
+
+
+.imgconocenos1{ 
+    width: 100%;
+    box-shadow: 0 0 10px $color-blanco;
+}
+
+.imgconocenos2{
+    display: none;
+}
+
+.conocenos{
+    margin-top: 100px;
+
+.p {
+    margin: 15px 40px;
+    text-align: center;
+}
+}
+    

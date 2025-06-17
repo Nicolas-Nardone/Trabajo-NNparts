@@ -1,0 +1,101 @@
+@use"./utilities/variables" as*;
+@use"./utilities/extends" as*;
+@use"./utilities/mixins" as*;
+@use"./global/reset" as*;
+@use"./layout/header" as*;
+@use"./layout/main" as*;
+@use"./layout/footer" as*;
+@use"./pages/contacto" as*;
+@use"./pages/sobrenosotros" as*;
+@use"./mq/mediaqueries" as*;
+
+
+.h2titulos{
+    background-color: #575757;
+    color: #000000;
+    border-top: 10px solid $color-rojo;
+    border-bottom:  10px solid $color-rojo;
+    margin: 30px 0px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.marco2{
+    background-color: $color-blanco;
+    height: 410px;
+    width: 300px;
+
+    padding: 15px 10px;
+    margin: 10px;
+   
+    border-radius: 10px;
+    border: 2px solid $color-grisclaro;
+    box-shadow: 0 0 10px $color-sombra;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+.h3{
+    color: $color-negro;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+}
+
+.precio{
+    color: $color-negro;
+    font-size: 17px;
+}
+
+.botoncomprar{
+    background-color: $color-sombra;
+     color: $color-blancoS;
+      
+     padding: 4px 12px;
+     
+     width: 200px;
+     font-weight: 620;
+     font-size: 15px;
+     
+     border-radius: 5px;
+     border: 2px solid 
+}
+
+.imgescape4{
+    width: 270px;
+}
+
+.imgcasco{
+width:220px ;
+}
+
+.imgbota{
+  width: 220px; ;  
+}
+
+.imgpechera{
+    width: 200px; ;
+}
+
+.imgguante{
+    width: 140px; ;
+}
+
+.imgequipo{
+  width: 100px; ;  
+}
+
+
+
+.imgls2{
+    width:250px
+}
+
+.imgls2guantes{
+    width:150px
+}

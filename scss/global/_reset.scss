@@ -1,0 +1,22 @@
+@use"./utilities/variables" as*;
+@use"./utilities/extends" as*;
+@use"./utilities/mixins" as*;
+@use"./layout/header" as*;
+@use"./layout/main" as*;
+@use"./layout/footer" as*;
+@use"./pages/contacto" as*;
+@use"./pages/sobrenosotros" as*;
+@use"./pages/paginas" as*;
+@use"./mq/mediaqueries" as*;
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+ background-color: $color-fondo;
+}
